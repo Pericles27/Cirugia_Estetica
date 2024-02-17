@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Kurale&family=Montserrat&display=swap');
+p{
+    font-family: Kurale ;
+}
+h1,h2,h3,h4{
+    font-family: Montserrat;
+    color: rgb(187, 43, 43);
+}
+#imagen{
+    flex: 50%;
+    min-width: 400px;
+    padding: 10px;
+    margin: auto;
+}
+#item {
+    flex: 50%;
+    min-width: 400px;
+    padding: 20px;
+}
+#lista{
+    background-color: antiquewhite;
+    border-radius: 15px;
+    margin-top: 10px;
+    padding: 10px;
+}
+@media screen and (max-width: 1200px) {
+    #item{
+        flex: 100% ;
+    }
+    #imagen{
+        flex:100%;
+    }
+}
+.texto{
+    font-size: 20px;
+    padding: 7px;
+} 
+@media screen and (max-width: 480px) {
+    #item{
+        flex: 100%;
+    }
+}

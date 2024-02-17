@@ -1,0 +1,23 @@
+.a{
+    margin: 200px auto 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height:50px;
+}
+.btn{
+    background-color:rgb(233, 94, 94);
+    border: 1px solid white;
+    color: white;
+}
+.btn .boton:hover {
+    background-color: antiquewhite;
+    color: black;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.btn:hover a{
+    color: black;
+}

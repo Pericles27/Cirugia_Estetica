@@ -1,0 +1,23 @@
+p{
+    font-family: Kurale ;
+}
+h1,h2,h3,h4{
+    font-family: Montserrat;
+    color: rgb(187, 43, 43);
+}
+ul,li{
+    list-style: none;
+}
+#item2 {
+    flex: 60%;
+    min-width: 400px;
+}
+#imagen2{
+    flex: 40%;
+    padding: 10px;
+    margin: auto;
+}
+#txt{
+    font-size: 20px;
+    padding: 7px;
+}

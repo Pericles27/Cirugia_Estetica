@@ -1,0 +1,83 @@
+import img2 from "./aumentoimg.png"
+import Contacto from "../Componentes/Contacto/contacto"
+const AumentoMamario = ()=>{
+    return ( 
+        <div style={{width:"95%",margin:"auto"}}>
+            <div style={{display:"flex",minHeight:300}}>
+                <div style={{flex:"1",borderRadius:20,backgroundColor:"antiquewhite",padding:15}}>
+                    <div>
+                        <h1>Descubre tu Confianza y Belleza</h1>
+                        <p>Bienvenida a nuestra práctica especializada en el aumento de mamas, donde nos dedicamos a ofrecerte una experiencia única y personalizada para alcanzar tus objetivos estéticos.</p>
+                    </div>
+
+                    <div id="aumento-mamas">
+                        <h2>¿En qué Consiste el Aumento de Mamas?</h2>
+                        <p>El aumento de mamas, también conocido como mamoplastia de aumento, es un procedimiento quirúrgico diseñado para mejorar la forma y el tamaño de los senos. Esta opción popular es ideal para aquellas mujeres que buscan aumentar el volumen de sus senos, restaurar la firmeza después del embarazo o corregir asimetrías.</p>
+                    </div>
+                </div>
+                <div style={{flex:"50%",flexWrap:"wrap",minWidth:250,padding:15}}>
+                    <img style={{width:"100%",borderRadius:20}} src={img2}></img>
+                </div>
+            </div>
+            <div id="texto2" style={{width:"80%",margin:"auto",padding:10}}>
+                <div id="proceso">
+                    <h2>El Proceso</h2>
+
+                    <div class="subseccion">
+                        <h3>Consulta Inicial</h3>
+                        <p>Comienza con una consulta personalizada donde nuestro cirujano plástico discutirá contigo tus objetivos y expectativas. Proporcionaremos información detallada sobre el procedimiento, opciones de implantes y responderemos a todas tus preguntas.</p>
+                    </div>
+                </div>
+                <div id="belleza-confianza">
+                    <h2>Tu Belleza, Tu Confianza</h2>
+                    <p>En nuestra práctica, creemos que la belleza es una expresión única y personal. El aumento de mamas no solo transforma tu apariencia física, sino que también puede impulsar tu confianza y autoestima. Estamos comprometidos a brindarte resultados excepcionales con un enfoque personalizado.</p>
+                </div>
+
+                <div id="llamada-accion">
+                    <p>Si estás considerando el aumento de mamas, estamos aquí para ser parte de tu viaje hacia la confianza y la belleza. ¡Contáctanos hoy para programar tu consulta y dar el primer paso hacia una versión más segura y radiante de ti misma!</p>
+                </div>
+            </div>
+            <Contacto/>
+        </div>
+    )
+}
+export default AumentoMamario
+
+
+IMAGENES
+Aumento mamario:
+    https://instagram.faep24-1.fna.fbcdn.net/v/t51.2885-15/358346065_1134199154637006_5749667268487212824_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.faep24-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=XgtxWMcGnvYAX_EnuYv&edm=AGW0Xe4BAAAA&ccb=7-5&oh=00_AfCSCVyA5KtHVPAZZChMh8uSp1pNtePm9doOGteCl7lN2Q&oe=65C9DD78&_nc_sid=94fea1
+
+
+
+
+
+
+            <div id="texto2" style={{padding:10}}>
+                <div id="proceso">
+                    <h2>El Proceso</h2>
+
+                    <div class="subseccion">
+                        <h3>Consulta Inicial</h3>
+                        <p>Comienza con una consulta personalizada donde nuestro cirujano plástico discutirá contigo tus objetivos y expectativas. Proporcionaremos información detallada sobre el procedimiento, opciones de implantes y responderemos a todas tus preguntas.</p>
+                    </div>
+                </div>
+                <div id="belleza-confianza">
+                    <h2>Tu Belleza, Tu Confianza</h2>
+                    <p>En nuestra práctica, creemos que la belleza es una expresión única y personal. El aumento de mamas no solo transforma tu apariencia física, sino que también puede impulsar tu confianza y autoestima. Estamos comprometidos a brindarte resultados excepcionales con un enfoque personalizado.</p>
+                </div>
+
+                <div id="llamada-accion">
+                    <p>Si estás considerando el aumento de mamas, estamos aquí para ser parte de tu viaje hacia la confianza y la belleza. ¡Contáctanos hoy para programar tu consulta y dar el primer paso hacia una versión más segura y radiante de ti misma!</p>
+                </div>
+            </div>
+
+
+
+            <p>El tiempo de recuperación varía según la complejidad del procedimiento, pero en general, los pacientes pueden esperar experimentar hinchazón y moretones alrededor de la nariz y los ojos durante las primeras semanas,
+                seguidos de una recuperación gradual durante varios meses. Es importante seguir las instrucciones postoperatorias del cirujano para garantizar una recuperación segura y exitosa.
+            </p>
+
+            <p>La rinoplastia es una decisión importante y personal, y es fundamental elegir un cirujano plástico con experiencia y habilidad en este procedimiento. Si estás considerando una rinoplastia para mejorar tu apariencia o tu salud respiratoria,
+                 te recomendamos programar una consulta con un profesional para discutir tus opciones y determinar si este procedimiento es adecuado para ti.
+            </p>

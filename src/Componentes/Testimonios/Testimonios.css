@@ -1,0 +1,24 @@
+.Container{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Item{
+    flex: 25%;
+    border-radius: 15px;
+    background-color: antiquewhite;
+    padding: 5px;
+    margin: 15px;
+    min-width: 250px;
+}
+.estrella{
+    color: rgb(238, 238, 18);
+}
+.estrellas{
+    margin: auto;
+    height: 20px;
+    width: fit-content;
+}
+.Item img{
+    height: 55px;
+}
